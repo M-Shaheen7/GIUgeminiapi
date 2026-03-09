@@ -34,7 +34,7 @@ Response: { "response": "An API is a contract between two programs..." }
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/[YOUR_ORG]/giu-gemini-api.git
+git clone https://github.com/M-Shaheen7/GIUgeminiapi
 cd giu-gemini-api
 ```
 
@@ -254,9 +254,9 @@ Series: **Build It. Ship It. Secure It.** — March 2026
 
 | Role | Speaker |
 |------|---------|
-| Backend Engineer (Talk 1) | [SPEAKER 1 NAME] |
-| DevOps Engineer (Talk 2) | [SPEAKER 2 NAME] |
-| Security Engineer (Talk 3) | [SPEAKER 3 NAME] |
+| Backend Engineer (Talk 1) | Mr Abdelmoaz Ashraf @ e& |
+| DevOps Engineer (Talk 2) | To be announced |
+| Security Engineer (Talk 3) | To be announced |
 | Organized by | AWS Cloud Clubs @ GIU |
 
 ---
