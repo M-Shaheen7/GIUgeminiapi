@@ -20,6 +20,10 @@ Each talk is tagged in the commit history: `v1.0`, `v2.0`, `v3.0`
 ## 🧠 What This Project Does
 
 A simple REST API with one endpoint — `POST /chat` — that accepts a text prompt and returns a response from Google's Gemini AI model.
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/` | GET | Health check — returns `{"message": "API is alive"}` |
+| `/chat` | POST | Accepts a prompt, returns Gemini's response |
 
 ```
 POST /chat
@@ -35,7 +39,7 @@ Response: { "response": "An API is a contract between two programs..." }
 
 ```bash
 git clone https://github.com/M-Shaheen7/GIUgeminiapi
-cd giu-gemini-api
+cd GIUgeminiapi
 ```
 
 ### 2. Set up a virtual environment
@@ -54,14 +58,10 @@ pip install -r requirements.txt
 
 ### 4. Configure your API key
 
-```bash
-cp .env.example .env
-```
+Open `main.py` and replace the placeholder with your real key:
 
-Open `.env` and replace the placeholder with your real Gemini API key:
-
-```
-GEMINI_API_KEY=your_actual_key_here
+```python
+GEMINI_API_KEY = "PASTE_YOUR_GEMINI_KEY_HERE"
 ```
 
 > Get a free Gemini API key at [Google AI Studio](https://aistudio.google.com/app/apikey)
@@ -254,9 +254,9 @@ Series: **Build It. Ship It. Secure It.** — March 2026
 
 | Role | Speaker |
 |------|---------|
-| Backend Engineer (Talk 1) | Mr Abdelmoaz Ashraf @ e& |
-| DevOps Engineer (Talk 2) | To be announced |
-| Security Engineer (Talk 3) | To be announced |
+| Backend Engineer (Talk 1) | [Abdelmoez Ashraf @ e& Egypt](https://www.linkedin.com/in/abdelmoezashraf/)  |
+| DevOps Engineer (Talk 2) | TBA |
+| Security Engineer (Talk 3) | TBA |
 | Organized by | AWS Cloud Clubs @ GIU |
 
 ---
