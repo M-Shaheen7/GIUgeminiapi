@@ -9,7 +9,7 @@
 
 | Talk | Date | Speaker | What Changed |
 |------|------|---------|--------------|
-| Talk 1 — Backend Dev | Thu, 12 March 2026 | Backend Engineer | Built the FastAPI + Gemini wrapper |
+| Talk 1 — Backend Dev | Thu, 12 March 2026 | [Abdelmoez Ashraf](https://www.linkedin.com/in/abdelmoezashraf/) | Built the FastAPI + Gemini wrapper |
 | Talk 2 — DevOps & Cloud | Sat, 14 March 2026 | DevOps Engineer | Dockerized + deployed to AWS Lambda |
 | Talk 3 — Security | Tue, 17 March 2026 | Security Engineer | Secured secrets + configured IAM |
 
